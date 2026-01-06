@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #0f2d33;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+  background: linear-gradient( #eef6f9, #e4f0f4);
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.hero {
+  padding: 100px 80px;
+  background-image: url(./fotos/main.png);
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0f2d33;
+  font-weight: 500;
+  margin-right: 118px;
+}
+
+.hero p {
+  margin-bottom: 32px;
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.btn {
+  background: none;
+  border: 1px solid #0f2d33;
+  color: #0f2d33;
+  padding: 18px 20px;
+  cursor: pointer;
+  height: 56px;
+  width: 181px;
+}
+
+.btn p {
+  font-size: 20px;
+  font-weight: 400;
+}  
+
+.cases {
+  padding: 80px;
+}
+
+.cases p {
+  font-size: 28px;
+  width: 1000px;
+  font-weight: 300;
+}
+
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.case {
+  height: 320px;
+  background: #ddd;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  font-size: 32px;
+}
+
+.case-1 img {
+  width: 725px;
+  height: 760px;
+}
+.case-2 img {
+  width: 725px;
+  height: 760px;
+}
+.case-3 img {
+  width: 245px;
+  height: 760px;
+}
+
+.video {
+  padding: 80px;
+}
+
+.video img {
+  width: 1720px;
+  height: 967px;
+  margin-top: 78px;
+}
+
+.video p {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.pitushka {
+  margin-left: 1100px;
+  margin-top: 5px;
+}
+
+.channels {
+  display: flex;
+  gap: 7px;
+}
+
+.footer {
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
